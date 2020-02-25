@@ -40,10 +40,12 @@ div a {
   margin-top: 20px;
   height: 200px;
   border-radius: 50%;
+  border: 2px solid gold;
 }
 
 #wrapper h1 {
   font-size: 36px;
+  text-decoration: underline gold;
 }
 
 #wrapper h2 {
@@ -74,6 +76,6 @@ div a {
 
 #links-footer a {
   font-size: 18px;
-  border-bottom: 1px solid #cc0000;
+  border-bottom: 1px solid gold;
   margin: 0 24px;
 }
