@@ -44,6 +44,7 @@ div a {
 }
 
 #wrapper h1 {
+  padding: 20px;
   font-size: 36px;
   text-decoration: underline gold;
 }
@@ -57,7 +58,7 @@ div a {
 
 #wrapper p {
   margin-top: 8px;
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 12px;
   font-weight: bold;
 }
@@ -67,6 +68,14 @@ div a {
   text-align: center;
   font-size: 18px;
   opacity: 0.9;
+}
+
+ul li::before {
+  content: '✯';
+  color: gold;
+  position: relative;
+  top: 1px;
+  right: 5px;
 }
 
 #links-footer {
