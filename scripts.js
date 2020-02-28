@@ -9,6 +9,14 @@ for (let card of cards) {
   })
 }
 
+document.querySelector('.maximize-modal').addEventListener('click', function() {
+  if (modal.classList.contains("maximize")) {
+    modal.classList.remove("maximize");
+  } else {
+    modal.classList.add("maximize");
+  }
+})
+
 
 document.querySelector('.close-modal').addEventListener('click', function () {
   modalOverlay.classList.remove('active')
